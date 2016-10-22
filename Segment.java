@@ -19,12 +19,12 @@ public class Segment {
 	public double distance()
     {
         double d;
-        d = Math.sqrt((B.getAbscisse()-A.getAbscisse())*(B.getAbscisse()-A.getAbscisse()) +(B.getOrdonée()-A.getOrdonée())*(B.getOrdonée()-A.getOrdonée()));
+        d = Math.sqrt((B.getAbscisse()-A.getAbscisse())*(B.getAbscisse()-A.getAbscisse()) +(B.getOrdonÃ©e()-A.getOrdonÃ©e())*(B.getOrdonÃ©e()-A.getOrdonÃ©e()));
         return d;
     }
 
 	public String toString(){
-		return A.toString()+" "+B.toString() ;
+		return A+" "+B ; //sans faire appel a toString() explicitement 
 	}
 
     public  Segment Symetrie1(){
